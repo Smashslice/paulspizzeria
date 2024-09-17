@@ -1,0 +1,70 @@
+/* Global effects */
+
+body{
+    background-color: #291911;
+}
+
+#logo{
+    text-align: center;
+}
+
+
+/* Nav bar styles */
+
+nav, footer {
+    background-color: #925E30;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: #C4B8A9
+}
+
+nav {
+    border: 5px double #772b0c;
+}
+
+nav a{
+    padding: 15px;
+    display: inline-block;
+}
+
+nav a:hover{
+    text-shadow: 2px 2px #772b0c;
+}
+
+/* Homepage section */
+
+section img{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 1px;
+}
+
+section h3{
+    font-size: 72px;
+    color:#772b0c;
+    margin-top: auto;
+}
+
+section p{
+    font-size: 40px;
+    color:#925E30;
+    margin-top: -10px;
+    border: 10px dashed #772b0c;
+    width: 35%;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.floatleft {
+    float:left;
+}
+
+.floatfix{
+    clear:both;
+}
+
+.floatright{
+    float:right;
+}
