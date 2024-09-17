@@ -2,10 +2,12 @@
 
 body{
     background-color: #291911;
+    margin: auto;
 }
 
 #logo{
     text-align: center;
+    margin-top: auto;
 }
 
 
@@ -20,14 +22,32 @@ a:link, a:visited {
     color: #C4B8A9
 }
 
-nav {
+nav, footer{
     border: 5px double #772b0c;
 }
 
 nav a{
+    font-size: 32px;
     padding: 15px;
     display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
 }
+footer p,footer a{
+    font-size: 24px;
+    padding: 2px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    color: #C4B8A9;
+}
+
+.what{
+    display:inline-block;
+}
+
 
 nav a:hover{
     text-shadow: 2px 2px #772b0c;
@@ -37,20 +57,24 @@ nav a:hover{
 
 section img{
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 2%;
     margin-left: 1px;
 }
 
 section h3{
     font-size: 72px;
     color:#772b0c;
-    margin-top: auto;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 section p{
     font-size: 40px;
     color:#925E30;
     margin-top: -10px;
+    margin-right: auto;
+    margin-left: 1%;
+    margin-bottom: 10px;
     border: 10px dashed #772b0c;
     width: 35%;
     padding: 2px 2px 2px 2px;
@@ -61,10 +85,32 @@ section p{
     float:left;
 }
 
-.floatfix{
-    clear:both;
-}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .floatright{
     float:right;
+}
+
+/* About us page */
+
+.aboutusimg{
+    float:right;
+    height: 380px;
+    width: auto;
+}
+
+.paragraphbreak{
+    /* border: 5px solid #772b0c; */
+    border: none;
+    width: 100%;
+    height: 0.1px;
+}
+
+.sizedparagraph{
+    width: 60%;
+    height: 400px;
 }
